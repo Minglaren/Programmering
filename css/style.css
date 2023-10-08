@@ -25,11 +25,32 @@ html, body {
 .btn-yellow:hover {
   background-color: #191919;
   border: 1px solid #191919;
-  color: #f0efe9;
+  color: #F0EFE9;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.btn-transparent i {
+  margin-left: 8px;
+  font-size: 0.9em;
+  transform: rotate(-45deg);
+}
+.btn-transparent:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #F0EFE9;
 }
 
 header {
-  background-color: #f0efe9;
+  background-color: #F0EFE9;
   padding: 15px;
 }
 header .container {
@@ -133,6 +154,74 @@ header .container .menu .main-menu .btn-login {
   padding-bottom: 12px;
 }
 
+.showcase {
+  background-color: #F0EFE9;
+}
+.showcase .container {
+  display: flex;
+  justify-content: space-between;
+}
+.showcase .container .content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .showcase .container .content {
+    text-align: left;
+  }
+}
+.showcase .container .content h1 {
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .showcase .container .content h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .showcase .container .content h1 {
+    font-size: 86px;
+  }
+}
+.showcase .container .content p {
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .showcase .container .content p {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.showcase .container .content a {
+  display: block;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .showcase .container .content a {
+    margin-right: 10px;
+    display: inline-block;
+  }
+}
+.showcase .container img {
+  display: none;
+  margin: left -50%;
+}
+@media (min-width: 1200px) {
+  .showcase .container img {
+    display: block;
+  }
+}
+
 .btn-transparent {
   background-color: transparent;
   border: 1px solid #191919;
@@ -151,7 +240,7 @@ header .container .menu .main-menu .btn-login {
 .btn-transparent:hover {
   background-color: #191919;
   border: 1px solid #191919;
-  color: #f0efe9;
+  color: #F0EFE9;
 }
 
 .section-title p {
