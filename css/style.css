@@ -253,3 +253,113 @@ header .container .menu .main-menu .btn-login {
   font-weight: 700;
   font-size: 45px;
 }
+
+.logo-partners {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.logo-partners .container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+@media (min-width: 768px) {
+  .logo-partners .container {
+    display: block;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1450px) {
+  .logo-partners .container {
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+.features {
+  display: flex;
+}
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #c9c9c9;
+}
+.features .container .box-1 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 303px;
+}
+.features .container .box-1 p {
+  color: red;
+}
+.features .container .box-1 h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 10;
+  font-size: 20px;
+}
+.features .container .box-1 .btn-yellow {
+  display: flex;
+  justify-content: center;
+}
+.features .container .box-2 {
+  display: flex;
+  justify-content: end;
+  padding-right: 60px;
+}
+.features .container .box-2 .business-advice {
+  display: flex;
+  justify-content: start;
+  width: 307px;
+  height: 220px;
+}
+.features .container .box-2 .business-advice .advice {
+  width: 227px;
+  height: 165px;
+}
+.features .container .box-2 .business-advice .advice h4 {
+  padding-top: 40px;
+  font-weight: 600;
+}
+.features .container .box-2 .startup-business {
+  display: flex;
+  width: 307px;
+  height: 220px;
+}
+.features .container .box-2 .startup-business .startup {
+  width: 227px;
+  height: 165px;
+}
+.features .container .box-2 .startup-business .startup h4 {
+  padding-top: 40px;
+  font-weight: 600;
+}
+.features .container .box-2 .financial-advice {
+  display: flex;
+  justify-content: start;
+  width: 307px;
+  height: 220px;
+}
+.features .container .box-2 .financial-advice .financial {
+  width: 227px;
+  height: 165px;
+}
+.features .container .box-2 .financial-advice .financial h4 {
+  padding-top: 30px;
+  font-weight: 600;
+}
+.features .container .box-2 .risk-management {
+  display: flex;
+  justify-content: start;
+  width: 307px;
+  height: 220px;
+}
+.features .container .box-2 .risk-management .risk {
+  width: 227px;
+  height: 165px;
+}
+.features .container .box-2 .risk-management .risk h4 {
+  padding-top: 30px;
+  font-weight: 600;
+}

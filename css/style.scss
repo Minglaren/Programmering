@@ -284,3 +284,138 @@ header {
             font-size: 45px;
         }
 }
+
+.logo-partners{
+   padding-top: 3px;
+   padding-bottom: 3px;
+   
+    .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        @media (min-width: 768px) {
+            display: block;
+            margin-top: 30px;
+        }
+
+        @media (min-width: 1450px) {
+            display: flex;
+            margin-top: 30px;          
+        }
+        
+    }
+
+}
+ // Features 
+.features{
+    display: flex;
+    //justify-content: space-between;
+    //border: 5px solid #c9c9c9;
+    //padding-bottom: 100px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        border: 5px solid #c9c9c9;
+        //padding-top: 80px;
+        //padding-left: 60px;
+        //width: 1520px;
+        //height: 600px;
+        .box-1{
+            display: flex;
+            //justify-content: space-between;
+            flex-direction: column;
+            width: 600px;
+            height: 303px;
+            p{
+                color: red;
+            }
+            h2{
+                
+                //display: flex;
+                //align-items: end;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 10;
+                font-size: 20px;
+                //font-weight: 600;
+                //font-size: 45px;  
+            }
+            .btn-yellow{
+                display: flex;
+                justify-content: center; 
+            }
+        }
+        .box-2{     
+            display: flex;      
+            //flex-wrap: wrap;
+            justify-content: end; 
+            padding-right: 60px;  
+            
+            .business-advice{
+                display: flex;
+                justify-content: start;
+                width: 307px;
+                height: 220px;
+                .advice{
+                    width: 227px;
+                    height: 165px;
+                    h4{
+                        padding-top: 40px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .startup-business{
+                display: flex;
+                width: 307px;
+                height: 220px;
+                .startup{
+                    width: 227px;
+                    height: 165px;
+                    h4{
+                        padding-top: 40px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .financial-advice{
+                display: flex;
+                justify-content: start;
+                width: 307px;
+                height: 220px;
+               .financial{
+                    width: 227px;
+                    height: 165px;
+                    h4{
+                        padding-top: 30px;
+                        font-weight: 600;                     
+                    }
+               }
+            }
+            .risk-management{
+                display: flex;
+                justify-content: start;
+                width: 307px;
+                height: 220px;
+                .risk{
+                    width: 227px;
+                    height: 165px;
+                    h4{
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+      
+    }
+
+
+
+}
+
+
+
+
+
